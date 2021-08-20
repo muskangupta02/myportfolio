@@ -1,0 +1,40 @@
+.tab {
+  border: 4px solid black;
+  margin: 40px;
+}
+td {
+  padding: 18px;
+  font-size: 20px;
+}
+th {
+  padding: 18px;
+  font-size: 25px;
+}
+.Table {
+  text-align: center;
+}
+.contain {
+  padding: 20px;
+}
+body {
+  padding: 30px;
+  margin: 30px;
+  font-family: sans-serif;
+  border: black solid 4px;
+  border-radius: 10px;
+}
+.contain summary {
+  font-size: 35px;
+}
+p {
+  font-size: 35px;
+}
+h1 {
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-size: 60px;
+  text-align: center;
+}
+.contain li {
+  font-size: 25px;
+}
