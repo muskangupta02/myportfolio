@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <style>
+    .navbar{
+        background-color: black;
+        border-radius: 20px;
+        width: 100%;
+    }
+    .navbar li a{
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .navbar li a:hover{
+        color: gray;
+    }
+    .navbar li:hover{
+        transform: scale(1.2);
+    }
+    ul{
+        display: flex;
+    }
+    .navbar li{
+        margin: 8px;
+        padding: 18px;
+        transition: all 1s ease-in-out;
+    }
+     h1{
+        font-size: 50px;
+        margin-top: 180px;
+        color: white;
+        text-align: center;
+        transition: all 1s ease-in-out;
+        font-family: 'Secular One', sans-serif;
+    }
+    h1:hover{
+        transform: scale(1.4);
+    }
+    #navb{
+        display: flex;
+        flex-direction: row;
+        height:75px;
+        margin-top: 140px;
+        align-items:center;
+        justify-content:flex-start;
+        width: 35%;
+        
+    }
+    body::before{
+        content: "";
+        background: url('firstimg.jpg') no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 1.0;
+    }
+    .navbar ul li img{
+        height: 30px;
+        width: 30px;
+    } 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+               <ul>
+                    <li><a href="home.html" target="_blank"> Home</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                </ul>  
+        </nav>
+    </header>
+        <h1>MUSKAN GUPTA</h1>
+    <footer>
+        <nav class="navbar" id="navb">
+                <ul>
+                    <li><a href="mailto:muskangupta0208@gmail.com"><img src="gmail.jpg" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/muskan-gupta-4057b21aa"><img src="linkedin.jpg" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/muskanzworld_"><img src="instagram.jpg" alt=""></a></li>
+                    <li><a href="+91 7049048512"><img src="call.jpg" alt=""></a></li>
+    
+                </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
